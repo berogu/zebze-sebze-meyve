@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+  <meta charset="utf-8">
+  <title>ZebZe Sebze & Meyve</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="zebze,sebze,meyve,sağlıklı,taze" name="keywords">
+  <meta content="Zebze Sebze & Meyve olarak hızlı,güvenilir ve zamanında hizmet anlayışına göre hareket ediyoruz ve bu doğrultuda iş yapabilme yöntemlerinizi şekillendiriyoruz. " name="description">
+
+  <!-- Favicons -->
+  <link href="img/fruit.png" rel="icon">
+  <link href="img/fruit.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+ <style>
+#heart {
+  color: #f77;
+}
+
+img:hover {
+  cursor: pointer;
+}
+</style>
+  <script>
+  
+// Images and alt attribute
+var images = {
+  image: [
+    {src: 'doamtes.jpg', alt: 'Project 1'}
+    , {src: 'https://unsplash.it/400/302?random', alt1: 'Project 2'}
+    , {src: 'https://unsplash.it/400/303random', alta: 'Project 3'}
+    , {src: 'https://unsplash.it/400/304?random', altb: 'Project 4'}
+    , {src: 'https://unsplash.it/400/305?random', altc: 'Project 5'}
+    , {src: 'https://unsplash.it/400/306?random', altd: 'Project 6'}
+    , {src: 'https://unsplash.it/400/307?random', alte: 'Project 7'}
+    , {src: 'https://unsplash.it/400/308?random', altf: 'Project 8'}
+    , {src: 'https://unsplash.it/400/309?random', altg: 'Project 9'}
+  ]
+};
+
+// Show Modal Image 
+function onClick(element) {
+  document.getElementById("img").src = element.src;
+  document.getElementById("modal").style.display = "block";
+}
+</script>
+
+
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <p style="border:2px solid white;color:white;font-size:23px;padding:2px 7px;margin:0px;">Zeb<span style="color:orangered">Ze</span></p>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Ana Sayfa</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#services">Vİzyonumuz</a></li>
+          <li><a href="#portfolio">Galerİ</a></li>
+          <li><a href="#contact">İletİşİm</a></li>
+         
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <b><p style="color:white;font-size:72px;">Zeb<span style="color:orangered;font-size:72px;">Ze</span></p></b>
+      <h2>Sebze & Meyve</h2>
+      <a href="#about" class="btn-get-started">Hakkımızda</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+		<hr>
+		<br>      
+      <div class="container">
+        <div class="row about-container">
+
+          <div>
+            <h2 class="title" style="text-align:center;color:orangered;font-size:26px">HAKKIMIZDA</h2>
+            <br>
+         </div> 
+         <div>
+          
+            <p style="font-size:16px">
+              Güler yüzlü ve sınırsız hizmet anlayışına sahip ekip arkadaşlarımız ile size hizmet etmeyi bir amaç olarak görüyoruz ve bu doğrultuda hareket ediyoruz.
+            </p>
+            <br>
+			</div>
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-telegram"></i></div>
+              <h4 class="title"><a>Hızlı ve Güvenilir</a></h4>
+              <p class="description">Hızlı ve Güvenilir ekip arkadaşlarımız ile hizmet etmekten mutluluk duyuyoruz</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.3s">
+              <div class="icon"><i class="fa fa-leaf"></i></div>
+              <h4 class="title"><a>Taze ve Doğal</a></h4>
+              <p class="description">Mevsimine uygun sebze ve meyveleri dalından mutfağınıza taşıyoruz</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+              <div class="icon"><i class="fa fa-battery-full"></i></div>
+              <h4 class="title"><a>Sınırsız Hizmet</a></h4>
+              <p class="description">İhtiyaçlarınıza göre şekillenen esnek hizmet anlayışı ile hareket ediyoruz</p>
+            </div>
+            
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.9s">
+              <div class="icon"><i class="fa fa-hourglass-half"></i></div>
+        
+              <h4 class="title"><a>Zamanında Teslimat</a></h4>
+              <p class="description">İhtiyaç durumunda olduğunuz her anda bir telefon kadar yakınınızdayız</p>
+            </div>
+				
+				
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+	<hr>
+      
+    </section><!-- #about -->
+
+    <!--==========================
+      Facts Section
+    ============================-->
+    
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+ <h2 class="title" style="text-align:center;color:orangered;font-size:26px">Vİzyonumuz</h2>  
+ 	Kurulduğumuz günden bu yana sürekli hizmet anlayışı ile yolumuza devam ediyoruz ve bu doğrultuda iş yapabilme yöntemlerimizi geliştirerek sizlere daha iyi hizmet sunabilmeyi, çalıştığımız firmaları iş ortağımız gibi görerek dalından taze sebze ve meyveleri sorunsuz bir şekilde teslim etmeyi örgüt kültürü benimseyerek bu doğrultuda hareket etmeyi amaçlıyoruz.
+ 	Gelecek odaklı çalışarak sürekli değişen yapımız ile iş ortaklarımıza göre şekil alabilen iş teknikleri oluşturuyoruz ve benimsiyoruz.
+	<br>
+	<br>
+	<br>
+	<p style="color:rgb(13, 45, 6);font-size:60px;text-align:center;">Zeb<span style="color:orangered;font-size:60px;">Ze</span></p>		
+	<hr>        
+        <!-- #services -->
+
+    <!--==========================
+    Call To Action Section
+    ============================-->
+ <!-- #call-to-action -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+   <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title" style="color:orangered">Galerİ</h3>
+          
+        </div>
+   
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            
+              <img src="img/cilek.jpg" alt="cilek">
+             
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+           
+              <img src="img/elma.jpg" alt="">
+             
+              
+        
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            
+              <img src="img/erik.jpg" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+        
+              <img src="img/karisik.jpg" alt="">
+           
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+            
+              <img src="img/karisik2.jpg" alt="">
+          
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+         
+              <img src="img/kavun.jpg" alt="">
+            
+          
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+           
+              <img src="img/meyve.png" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            
+              <img src="img/meyve3.png" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+           
+              <img src="img/sebze.jpg" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+           
+              <img src="img/portakal.jpeg" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+           
+              <img src="img/narenciyeler.jpg" alt="">
+              
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+            
+              <img src="img/muz.png" alt="">
+             
+              
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+<!-- #portfolio -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2 class="title" style="text-align:center;color:orangered;font-size:26px">İLETİŞİM</h2>
+          <p class="section-description">Aşağıda bulunan iletişim adresleri ile bizimle irtibat kurabilirsiniz.</p>
+        </div>
+      </div>
+
+     
+
+
+<div id="googleMap" style="width:100%;height:300px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(39.953499, 32.826620),
+    zoom:17,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9bwmRAZhaEscyDr1IZkgHdNIdIvcEkQ8&callback=myMap"></script>
+
+
+
+
+      <div class="container wow fadeInUp">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+						<br>
+						<br>                
+                <i class="fa fa-map-marker"></i>
+                
+                
+               <p>Ankara Toptancı Hâli<br>148 Numara</p>
+              </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>krmoguz@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+90 0532 441 04 97</p>
+              </div>
+            </div>
+
+            
+          </div>
+	
+          <div class="col-lg-5 col-md-8">
+          
+            <div class="form">
+            <br>
+            <p>Görüşlerinize her zaman değer veriyoruz, çalışma kültürümüzü bu doğrultuda şekillendiriyoruz.</p>
+              <div id="sendmessage">Görüşlerinize her zaman değer veriyoruz, çalışma kültürümüzü bu doğrultuda şekkillendiriyoruz.</div>
+              <div id="errormessage"></div>
+              <form action="mail.php" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                <br>
+                <br>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Adınız ve Soyadınız" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="E-Mail Adresiniz" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Mesajınız" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" style="background-color:orangered">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Fijital</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+       <a href="https://bootstrapmade.com/" style="font-size:8px">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  
+  
+
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  
+
+
+
+
+</body>
+
+</html>
+
+
